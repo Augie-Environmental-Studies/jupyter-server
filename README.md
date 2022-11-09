@@ -14,8 +14,8 @@ cd jupyter-server
 docker compose up -d
 docker exec -it jupyter sh
 jupyter lab password
-<Set the Jupyter access password>
-<Press ctrl + d to exit the docker process>
+# <Set the Jupyter access password>
+# <Press ctrl + d to exit the docker process>
 docker compose down
 docker compose up -d
 ```
