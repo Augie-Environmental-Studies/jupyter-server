@@ -1,6 +1,12 @@
 # ----------------------------------------------------------------
 # WHAT IS THIS FILE FOR?
 # Experimental Jupyter Lab server. Work in progress.
+#
+# HOW TO RUN:
+#   docker compose up
+#   docker exec -it jupyter sh
+#   jupyter lab password
+#   <Set the Jupyter access password>
 # ----------------------------------------------------------------
 services:
   jupyter:
