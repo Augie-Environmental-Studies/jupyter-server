@@ -15,5 +15,10 @@ docker compose up -d
 docker exec -it jupyter sh
 jupyter lab password
 <Set the Jupyter access password>
-jupyter lab stop 8888 && jupyter lab --no-browser --ip "*"
+<Press ctrl + d to exit the docker process>
+docker compose down
+docker compose up -d
 ```
+
+<br>
+<br>
