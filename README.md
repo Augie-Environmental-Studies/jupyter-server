@@ -8,7 +8,7 @@ Designed to deployed with Docker Compose.
 ```bash
 git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
-docker compose up
+docker compose up -d
 docker exec -it jupyter sh
 jupyter lab password
 <Set the Jupyter access password>
