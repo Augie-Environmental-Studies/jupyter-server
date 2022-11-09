@@ -1,0 +1,23 @@
+# ----------------------------------------------------------------
+# WHAT IS THIS FILE FOR?
+# Experimental Jupyter Lab server. Work in progress.
+# ----------------------------------------------------------------
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: jupyter
+    # Always restart the container, even after reboot
+    restart: always
+    ports:
+      - 80:8888
+    volumes:
+      # Location of the volume:
+      #   /var/lib/docker/volumes/...
+      - jupyter-data:/home/jovyan
+
+    # Uncomment
+    #env_file:
+    #  - .env
+
+volumes:
+  jupyter-data:
