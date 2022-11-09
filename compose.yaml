@@ -29,6 +29,7 @@ services:
     entrypoint:
       - jupyter
       - lab
+      - --collaborative
       - --no-browser
       - --ip
       - "*"
