@@ -2,7 +2,7 @@
 
 Jupyter Lab server. Work in progress.
 Designed to run in a private virtual server.
-Designed to deployed with Docker Compose.
+Designed to be deployed with Docker Compose.
 
 ***How we use this repository to run our Jupyter server***<br>
 ```bash
