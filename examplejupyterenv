@@ -1,0 +1,12 @@
+# ----------------------------------------------------------
+# This is the default Jupyter password.
+# If you're just testing, then this password doesn't need
+# to be changed. However, if you have exposed your server
+# to the internet, then:
+#   cp examplejupyterenv .jupyterenv
+#   vim .jupyterenv
+#   <Change the password>
+#   <Change the line below
+#    from `- examplejupyterenv` to `- .jupyterenv`>
+# ----------------------------------------------------------
+PASSWORD="369FQUv4eS"
