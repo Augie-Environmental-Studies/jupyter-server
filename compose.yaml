@@ -14,6 +14,7 @@ services:
       # Location of the volume:
       #   /var/lib/docker/volumes/...
       - jupyter-data:/home/jovyan
+    entrypoint: jupyterentrypoint
 
     # You don't need to change this if you're just testing out.
     # However, if you've exposed your server to the internet,
