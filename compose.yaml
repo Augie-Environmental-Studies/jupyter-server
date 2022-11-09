@@ -15,7 +15,7 @@ services:
       #   /var/lib/docker/volumes/...
       - jupyter-data:/home/jovyan
 
-    # Uncomment
+    # Uncomment to override the default password
     #env_file:
     #  - .env
 

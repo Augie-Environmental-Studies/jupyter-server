@@ -1,0 +1,4 @@
+# The env file contains the Jupyter password, so it should
+# never be commited to git
+*env*
+!examplejupyterenv
