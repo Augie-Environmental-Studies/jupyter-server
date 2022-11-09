@@ -6,6 +6,9 @@ Designed to be deployed with Docker Compose.
 
 ***How we use this repository to run our Jupyter server***<br>
 ```bash
+# Running this on your personal computer puts your computer
+# at risk. So, we run this on a virtual private server.
+ssh test@127.123.456.789
 git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
 
