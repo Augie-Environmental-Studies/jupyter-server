@@ -3,10 +3,14 @@
 # Experimental Jupyter Lab server. Work in progress.
 #
 # HOW TO RUN:
-#   docker compose up
+#   docker compose up -d
+#
+#   # Run this only the first time you run.
+#   # Skip these after the first time.
 #   docker exec -it jupyter sh
 #   jupyter lab password
 #   <Set the Jupyter access password>
+#   jupyter lab stop 8888 && jupyter lab --no-browser --ip "*"
 # ----------------------------------------------------------------
 services:
   jupyter:
