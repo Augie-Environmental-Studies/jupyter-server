@@ -29,8 +29,8 @@ For better security, we don't directly expose
 our server to the internet. Instead, we use Cloudflare Tunnel
 to proxy every traffic and user authentication. We followed the installation instructions at
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/
-Also, we configure our proxy settings and authentication settings at
-https://one.dash.cloudflare.com/
+After installation, we configure our proxy settings and authentication
+settings at https://one.dash.cloudflare.com/
 
 So, when we go to our Jupyter Server website,
 we can login by using our school email.
