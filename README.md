@@ -33,9 +33,10 @@ After installation, we configure our proxy settings and authentication
 settings at https://one.dash.cloudflare.com/
 
 So, when we go to our Jupyter Server website,
-we can login by using our school email.
-We can only get in with our school email because Cloudflare
-Tunnel checks the domain name of the email address we put in.
+we login with our school email. We can login with our school email
+because Cloudflare Tunnel checks the domain name of
+the email address and rejects if it's not one of
+the preconfigured school domain names.
 
 <br>
 <br>
