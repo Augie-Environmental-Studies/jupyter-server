@@ -44,4 +44,9 @@ preconfigured at https://one.dash.cloudflare.com/
 `Access - Applications` menu.
 
 <br>
+
+> ***How can I develop or debug using this image?***<br>
+> Check out the documentation of the base image at https://hub.docker.com/r/jupyter/datascience-notebook
+
+<br>
 <br>
