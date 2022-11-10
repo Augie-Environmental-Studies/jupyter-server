@@ -27,7 +27,7 @@ docker compose up -d
 For better security, we don't directly expose
 our server to the internet. Instead, use Cloudflare Tunnel
 to proxy every traffic. We followed installation instructions at
-https://www.cloudflare.com/products/tunnel/
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/
 
 So, how does it look like? When we go to our
 Jupyter Server website,
