@@ -1,7 +1,6 @@
 # What is this repository for?
 
-JupyterLab server. Designed to run in a private virtual server.
-Designed to be deployed with Docker Compose.
+A JupyterLab server designed to be deployed with Docker Compose.
 
 ***How we use this repository to run our Jupyter server***<br>
 ```bash
