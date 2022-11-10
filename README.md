@@ -31,8 +31,8 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/instal
 
 So, how does it look like? When we go to our
 Jupyter Server website,
-Cloudflare Tunnel is set up such that our website first
-first requires users to login using GitHub oAuth.
+Cloudflare Tunnel is set up such that our website
+first requires users to login using our school email.
 Jupyter then asks the user to login using the password
 we set earlier. This way, we have two layers of security.
 
