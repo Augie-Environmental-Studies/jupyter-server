@@ -12,8 +12,10 @@ git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
 docker compose up -d
 
-# Run the codes below only the first time you run.
+# ----------------------------------------------------
+# Run all the codes below only the first time you run.
 # Skip these after the first time.
+# ----------------------------------------------------
 docker exec -it jupyter sh
 jupyter lab password
 # <Set the Jupyter access password>
