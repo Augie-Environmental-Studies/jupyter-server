@@ -4,15 +4,6 @@
 #
 # HOW TO RUN:
 #   docker compose up -d
-#
-#   # Run this only the first time you run.
-#   # Skip these after the first time.
-#   docker exec -it jupyter sh
-#   jupyter lab password
-#   <Set the Jupyter access password>
-#   <Press ctrl + d to exit the docker process>
-#   docker compose down
-#   docker compose up -d
 # ----------------------------------------------------------------
 services:
   jupyter:
@@ -31,6 +22,8 @@ services:
       - lab
       - --collaborative
       - --no-browser
+      - --NotebookApp.token=''
+      - --NotebookApp.password=''
       - --ip
       - "*"
 

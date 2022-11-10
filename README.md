@@ -11,30 +11,19 @@ ssh test@127.123.456.789
 git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
 docker compose up -d
-
-# ----------------------------------------------------
-# Run all the codes below only the first time you run.
-# Skip these after the first time.
-# ----------------------------------------------------
-docker exec -it jupyter sh
-jupyter lab password
-# <Set the Jupyter access password>
-# <Press ctrl + d to exit the docker process>
-docker compose down
-docker compose up -d
 ```
 
 For better security, we don't directly expose
 our server to the internet. Instead, use Cloudflare Tunnel
-to proxy every traffic. We followed installation instructions at
+to proxy every traffic and authenticate users. We followed installation instructions at
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/
 
-So, how does it look like? When we go to our
-Jupyter Server website,
-Cloudflare Tunnel is set up such that our website
-first requires users to login using our school email.
-Jupyter then asks the user to login using the password
-we set earlier. This way, we have two layers of security.
+So, when we go to our Jupyter Server website,
+we can login by using our school email.
+We can only get in with our school email because Cloudflare
+Tunnel checks the domain name of the mail we put in.
+This means anyone from outside our school - at least theoretically -
+cannot have access to our website.
 
 <br>
 <br>
