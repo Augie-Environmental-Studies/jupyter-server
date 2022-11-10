@@ -7,17 +7,18 @@
 # What is this repository for?
 
 A JupyterLab server designed to be deployed with Docker Compose
-as fast as possible, with Jupyter's
+as fast and easy as possible. Jupyter's
 [real time collaboration feature](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html)
-enabled.
+is enabled by default, so that multiple users can
+collaborate and edit at the same time.
 
 <br>
 
-***How we use this repository to run our Jupyter server***<br>
+***How we run this***<br>
 ```bash
 # Running this on your personal computer puts your computer
 # at risk. We run this on a virtual private server.
-ssh test@127.123.456.789
+ssh test@127.123.456.789  # Replace with your own username and IP address
 git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
 docker compose up -d
