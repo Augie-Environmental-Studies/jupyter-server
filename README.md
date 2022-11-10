@@ -17,7 +17,7 @@ collaborate and edit at the same time.
 ***How we run this***<br>
 ```bash
 # Running this on your personal computer puts your computer
-# at risk. We run this on a virtual private server.
+# at risk. We run this on a virtual private server -- e.g. DigitalOcean.
 ssh test@127.123.456.789  # Replace with your own username and IP address
 git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
