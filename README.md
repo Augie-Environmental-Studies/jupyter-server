@@ -33,7 +33,7 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/instal
 So, when we go to our Jupyter Server website,
 we can login by using our school email.
 We can only get in with our school email because Cloudflare
-Tunnel checks the domain name of the mail we put in.
+Tunnel checks the domain name of the email address we put in.
 
 <br>
 <br>
