@@ -28,7 +28,7 @@ docker compose up -d
 
 For better security, we never expose
 our server to the internet directly. Instead, we use Cloudflare Tunnel
-to proxy every traffic and also to handle user authentication. We followed the installation instructions at
+to proxy every traffic and also to handle user authentication. We followed the installation guide at
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/
 After installation, we configure our proxy settings and authentication
 settings at https://one.dash.cloudflare.com/
