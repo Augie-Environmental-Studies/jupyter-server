@@ -31,8 +31,8 @@ our server to the internet directly. Instead, we use Cloudflare Tunnel
 to proxy every traffic and also to handle user authentication. We followed the installation guide at
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/
 
-After installation, we configure our proxy settings and authentication
-settings at https://one.dash.cloudflare.com/ at the
+After installation, we configure server settings
+at https://one.dash.cloudflare.com/
 `Access - Applications` menu for user authentication configs
 and `Access - Tunnels` menu for domain name routing configs.
 
