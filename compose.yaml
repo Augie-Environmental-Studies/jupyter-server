@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------
-# WHAT IS THIS FILE FOR?
-# Experimental Jupyter Lab server. Work in progress.
+# Source:
+#   https://jupyterlab.readthedocs.io/en/stable/user/rtc.html
 #
 # HOW TO RUN:
 #   docker compose up -d
