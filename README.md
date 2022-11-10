@@ -23,17 +23,16 @@ docker compose up -d
 ```
 
 For better security, we don't directly expose
-our server to the internet. Instead, we hide our
-server behind Cloudflare Tunnel and let Cloudflare
-aproxy everything for us. We followed installation instructions at
+our server to the internet. Instead, use Cloudflare Tunnel
+to proxy every traffic. We followed installation instructions at
 https://www.cloudflare.com/products/tunnel/
 
-So, how does it look like now? When we go to our
-Jupyter Server website, which we won't disclose
-because it's only for testing and development purposes for now,
-Cloudflare Tunnel first requires users to login using
-GitHub oAuth. After that, Jupyter's built-in login
-system requires users to login using the password we set earlier.
+So, how does it look like? When we go to our
+Jupyter Server website,
+Cloudflare Tunnel is set up such that our website first
+first requires users to login using GitHub oAuth.
+Jupyter then asks the user to login using the password
+we set earlier. This way, we have two layers of security.
 
 <br>
 <br>
