@@ -21,8 +21,6 @@ So, when we go to our Jupyter Server website,
 we can login by using our school email.
 We can only get in with our school email because Cloudflare
 Tunnel checks the domain name of the mail we put in.
-This means anyone from outside our school - at least theoretically -
-cannot have access to our website.
 
 <br>
 <br>
