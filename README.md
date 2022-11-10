@@ -34,7 +34,7 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/instal
 After installation, we configure server settings
 at https://one.dash.cloudflare.com/
 `Access - Applications` menu for user authentication configs
-and `Access - Tunnels` menu for domain name routing configs.
+and `Access - Tunnels` menu for domain-name routing configs.
 
 We login to the server with our school email.
 Cloudflare Tunnel checks the domain name of
