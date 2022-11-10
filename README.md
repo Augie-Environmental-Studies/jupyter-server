@@ -1,6 +1,9 @@
 # What is this repository for?
 
-A JupyterLab server designed to be deployed with Docker Compose.
+A JupyterLab server designed to be deployed with Docker Compose
+as fast as possible, with Jupyter's
+[real time collaboration feature](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html)
+enabled.
 
 ***How we use this repository to run our Jupyter server***<br>
 ```bash
