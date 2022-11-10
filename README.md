@@ -39,7 +39,9 @@ and `Access - Tunnels` menu for domain-name routing configs.
 We login to the server with our school email.
 Cloudflare Tunnel checks the domain name of
 the email address and rejects if it's not one of
-the preconfigured school domain names.
+our school's `.edu` domain names, which we
+preconfigured at https://one.dash.cloudflare.com/
+`Access - Applications` menu.
 
 <br>
 <br>
