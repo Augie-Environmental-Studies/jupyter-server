@@ -1,9 +1,17 @@
+<br>
+<p align="center">
+  <img alt="example screenshot" src="https://user-images.githubusercontent.com/19341857/201000605-2828bf29-da22-489d-8e09-649832c4b510.png">
+</p>
+<br>
+
 # What is this repository for?
 
 A JupyterLab server designed to be deployed with Docker Compose
 as fast as possible, with Jupyter's
 [real time collaboration feature](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html)
 enabled.
+
+<br>
 
 ***How we use this repository to run our Jupyter server***<br>
 ```bash
@@ -14,6 +22,8 @@ git clone https://github.com/Augie-Environmental-Studies/jupyter-server.git
 cd jupyter-server
 docker compose up -d
 ```
+
+<br>
 
 For better security, we don't directly expose
 our server to the internet. Instead, we use Cloudflare Tunnel
